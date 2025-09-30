@@ -1,5 +1,4 @@
 #pragma once
 
-#include <string>
-
-std::string oops();
+//input validation function
+int get_validated_int (int lower_bound, int upper_bound);

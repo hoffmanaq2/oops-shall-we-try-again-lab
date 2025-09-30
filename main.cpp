@@ -3,9 +3,9 @@
 
 int main()
 {
-    // Example: valid range is from 0 to 100
-    int chosenValue = get_validated_int (0, 100);
-    std::cout << "\nThe value chosen by the user is " << chosenValue << std::endl;
+    //example valid range is from 0 to 100
+    int chosen_value = get_validated_int (0, 100);
+    std::cout << "\nThe value chosen by the user is " << chosen_value << std::endl;
 
     return 0;
 }

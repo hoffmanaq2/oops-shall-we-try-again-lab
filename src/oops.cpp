@@ -12,7 +12,7 @@ int get_validated_int(int lower_bound, int upper_bound)
         std::cin >> value;
 
         if (std::cin.fail())
-        {
+        { //in case user enters letters or invalid characters
             std::cin.clear();
             std::cin.ignore(10000, '\n');
             std::cout << "Your value is invalid" << std::endl;
@@ -23,7 +23,7 @@ int get_validated_int(int lower_bound, int upper_bound)
         }
         else
         {
-            valid = true;
+             valid = true;
         }
     }
 

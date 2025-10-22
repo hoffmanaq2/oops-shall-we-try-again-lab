@@ -1,4 +1,4 @@
 #pragma once
 
 //input validation function
-int get_validated_int (int lower_bound, int upper_bound);
+int getValidatedInt(int lowerBound, int upperBound, int defaultValue = 100);
